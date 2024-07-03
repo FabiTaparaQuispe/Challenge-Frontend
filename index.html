@@ -1,2 +1,55 @@
-<!DOCTYPE html><html><head><link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet" /><link href="./css/main.css" rel="stylesheet" /><title>Document</title></head><body><div class="v14_123"><div class="v14_124"><div class="name"></div></div><div class="v14_129"><div class="v14_130"><span class="v14_131">MIS PRODUCTOS:</span><div class="v14_132"><div class="v14_133"><div class="v14_134"><div class="name"></div><div class="name"></div><div class="name"></div></div><div class="v14_138"><div class="name"></div><div class="name"></div><div class="name"></div></div><div class="v14_142"><div class="name"></div><div class="name"></div><div class="name"></div></div></div><div class="v14_146"></div></div></div><div class="v14_147"><span class="v14_148">AGREGAR PRODUCTO:</span><div class="name"></div><div class="name"></div><div class="name"></div><div class="v14_152"><div class="name"></div><div class="name"></div></div></div></div><div class="v14_155"><div class="name"></div><span class="v14_157">Desarollado por [tu nombre]  
-Alura Latam- 202x</span></div></div></body></html>
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AluraGeek</title>
+	<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+	<header>
+	    <div class="logo">
+		<span>❤❤❤ AluraGeek</span>
+	    </div>
+	</header>
+	<main>
+	    <section class="product-form">
+		<div class="product-title">
+		    <h2>ADD PRODUCT:</h2>
+		</div>
+		<form id="addProductForm">
+		    <input class="input" type="text" id="productName" placeholder="Name">
+		    <input class="input" type="number" id="productPrice" placeholder="Cost">
+		    <input class="input" type="file" id="productImage" placeholder="Image">
+
+		    <div>
+			<button class="submit-button" type="submit">Submit</button>
+			<button class="reset-button" type="reset">Reset</button>
+		    </div>
+		</form>
+	    </section>
+	    <section class="product-list">
+		<section class="product-title">
+		    <h2>MY PRODUCTS:</h2>
+		</section>
+		<div class="products" id="products">
+		    <!-- Products will be add here dynamicall y-->
+		</div>
+	    </section>
+	</main>
+	<footer>
+	    <div>
+		<span>
+		    <h1>❤❤❤ AluraGeek</h1>
+		</span>
+		<span>
+		    <h3>DEVELOPED BY FABI</h3>
+		</span>
+		<span>
+		    <h5>ALURA LATAM - 2024</h5>
+		</span>
+	    </div>
+	</footer>
+	<script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,139 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, footer {
+  background-color: #6a0dad;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header .logo, footer div {
+  font-size: 1.5em;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.product-form, .product-list {
+  width: 100%;
+  max-width: 500px;
+  margin: 10px;
+}
+
+.product-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-form input {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.product-form button {
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.product-list .products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-card {
+  background-color: #6a0dad;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: calc(50% - 20px);
+  box-sizing: border-box;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 2px solid #6a0dad;
+  margin-bottom: 10px;
+}
+
+.product-card .product-name {
+  font-weight: bold;
+}
+
+.product-name {
+  color: white;
+  text-align: left;
+}
+
+.product-price {
+  color: white;
+  width: 45%;
+}
+
+.product-image {
+  border-radius: 2px;
+  border: 2px solid black;
+}
+
+.delete-btn {
+  width: 49%;
+}
+
+.product-card .delete-btn {
+  background-color: #f00;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product-title {
+  text-align: center;
+}
+
+.submit-button .reset-button {
+}
+
+.submit-button {
+  color: white;
+  background-color: #000080;
+  border-radius: 10px;
+  border: 2px solid #000080;
+  width: 45%;
+}
+
+.reset-button {
+  color: #000080;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #000080;
+  width: 49%;
+}
+
+.input {
+  border-radius: 20px;
+  color: #000080;
+  border: 2px solid #000080;
+}
+
+@media (max-width: 768px) {
+  .product-card {
+width: calc(100% - 20px);
+  }
+}
